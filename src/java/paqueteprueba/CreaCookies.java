@@ -37,15 +37,15 @@ public class CreaCookies extends HttpServlet {
              cok.setMaxAge(60*3);
             response.addCookie(cok);
             /* TODO output your page here. You may use following sample code. */
-//            out.println("<!DOCTYPE html>");
-//            out.println("<html>");
-//            out.println("<head>");
-//            out.println("<title>Servlet CreaCookies</title>");            
-//            out.println("</head>");
-//            out.println("<body>");
-//            out.println("<h1>Servlet CreaCookies at " + request.getContextPath() + "</h1>");
-//            out.println("</body>");
-//            out.println("</html>");
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Servlet CreaCookies</title>");            
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Servlet CreaCookies at " + request.getContextPath() + "</h1>");
+            out.println("</body>");
+            out.println("</html>");
         }
     }
 
